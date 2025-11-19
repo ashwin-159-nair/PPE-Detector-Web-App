@@ -1,4 +1,4 @@
-<img width="1289" height="1061" alt="PPE_Result2" src="https://github.com/user-attachments/assets/5bccc8e5-4078-44b8-85e2-3ebc52557ad4" />YOLOv8 PPE Detector (Streamlit Web App)
+YOLOv8 PPE Detector (Streamlit Web App)
 A real-time Personal Protective Equipment (PPE) Detection system for automated safety monitoring in industrial environments.
 
 Live Application

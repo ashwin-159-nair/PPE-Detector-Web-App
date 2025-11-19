@@ -1,6 +1,6 @@
 streamlit
 ultralytics
 gdown
-opencv-python-headless
+opencv-python-headless # Use this version for deployment
 numpy
 pillow

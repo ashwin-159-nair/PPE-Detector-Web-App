@@ -5,7 +5,6 @@ import os
 import gdown # Used to download files from Google Drive share links
 
 # --- Configuration ---
-# CRITICAL: This is the direct download link for your best.pt file.
 DOWNLOAD_URL = "https://drive.google.com/uc?export=download&id=1_gFEBNMVvOAQWQTF7J__kEbHOJJEPviK"
 
 # Path where the model will be saved locally on the Streamlit server
@@ -18,7 +17,6 @@ st.title("👷 Real-Time PPE (Personal Protective Equipment) Detector")
 # @st.cache_resource ensures the model is only downloaded and loaded once.
 @st.cache_resource
 def load_model():
-    """Downloads model from Drive and loads it using YOLO."""
     try:
         if not os.path.exists(MODEL_PATH):
             st.info("Downloading model weights from Google Drive...")
@@ -34,7 +32,6 @@ def load_model():
         
 model = load_model()
 
-# --- File Uploader ---
 uploaded_file = st.file_uploader(
     "Upload an Image or Video of a Worksite", 
     type=["jpg", "jpeg", "png", "mp4", "mov", "avi"]

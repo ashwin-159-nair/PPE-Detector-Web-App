@@ -1,0 +1,12 @@
+# File for Streamlit App Deployment Context
+
+# The paths here are placeholders for the deployment environment 
+# since the model is downloaded directly via app.py
+train: images/train
+val: images/val
+
+# Number of classes (Confirmed from your training run)
+nc: 14 
+
+# Class names (Confirmed from your training run)
+names: ['Fall-Detected', 'Gloves', 'Goggles', 'Hardhat', 'Ladder', 'Mask', 'NO-Gloves', 'NO-Goggles', 'NO-Hardhat', 'NO-Mask', 'NO-Safety Vest', 'Person', 'Safety Cone', 'Safety Vest']

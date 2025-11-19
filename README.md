@@ -13,13 +13,14 @@ Key Features
 
 3. Interactive Demo: A Streamlit frontend allows users to upload files and adjust the Confidence Threshold.
 
-Tech Stack
+## 💻 Tech Stack
 
-Component	                     Technology	                                    Role
-Model	                           YOLOv8s	                            Core object detection engine.
-Frontend	                      Streamlit	                     User interface and web application hosting.
-Deployment	                  Streamlit Cloud	                          Hosts the public web app.
-Model Access	               Google Drive + gdown	          Securely downloads the large best.pt file during deployment.
+| Component | Technology | Role |
+| :--- | :--- | :--- |
+| **Model** | **YOLOv8s** | Core object detection engine. |
+| **Frontend** | **Streamlit** | User interface and web application hosting. |
+| **Deployment** | **Streamlit Cloud** | Hosts the public web app. |
+| **Model Access** | **Google Drive + `gdown`** | Securely downloads the large `best.pt` file during deployment. |
 
 
 

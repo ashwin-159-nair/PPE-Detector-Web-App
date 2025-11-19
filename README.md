@@ -21,18 +21,39 @@ Frontend	                      Streamlit	                     User interface and
 Deployment	                  Streamlit Cloud	                          Hosts the public web app.
 Model Access	               Google Drive + gdown	          Securely downloads the large best.pt file during deployment.
 
+
+
 Project Demo Screenshot
 
-<img width="1366" height="1006" alt="PPE_Result1" src="https://github.com/user-attachments/assets/3d7d22e6-7af6-499a-86e3-e10d57b3d246" />
-
-
-
-<img width="1289" height="1061" alt="PPE_Result2" src="https://github.com/user-attachments/assets/2355e34c-1ec3-4619-a424-a2bda4b7b269" />
 
 
 
 
-<img width="1344" height="1014" alt="PPE_Result3" src="https://github.com/user-attachments/assets/e255114b-ac65-4df5-843b-b08a0a03fa43" />
+
+
+
+
+
+
+
+<img width="500" height="500" alt="PPE_Result1" src="https://github.com/user-attachments/assets/3d7d22e6-7af6-499a-86e3-e10d57b3d246" />
+
+
+
+
+
+
+
+
+
+
+
+<img width="500" height="500" alt="PPE_Result2" src="https://github.com/user-attachments/assets/2355e34c-1ec3-4619-a424-a2bda4b7b269" />
+
+
+
+
+<img width="500" height="500" alt="PPE_Result3" src="https://github.com/user-attachments/assets/e255114b-ac65-4df5-843b-b08a0a03fa43" />
 
 
 
